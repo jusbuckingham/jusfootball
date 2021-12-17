@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
-import logo from './logo.svg';
 import './App.css';
-import Admin from './Admin';
 
 
 // Components
-
+import Admin from './Admin';
 
 class App extends Component {
   render() {
