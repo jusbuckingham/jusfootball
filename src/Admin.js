@@ -250,6 +250,8 @@ class Admin extends Component {
                                                     <tbody>
 
                                                         {displayEvents}
+                                                        {displaySchedules}
+                                                        {displayScoress}
                                                     </tbody>
                                                 </table>
                                             </div>
