@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import './Admin.css';
 
-
 // component
 import Event from './Event';
+import Schedule from "./Schedule";
+import Scores from "./Scores";
 
 
 const events = [
@@ -30,6 +31,53 @@ const events = [
         title: 'Packers Rodgers not practicing but ready to go'
 
     }
+];
+
+const schedules = [
+    {
+        matchup: 'Carolina at Buffalo',
+        time: '10am',
+    },
+    {
+        matchup: 'Arizona at Detriot',
+        time: '10am',
+    },
+    {
+        matchup: 'New York at Miami',
+        time: '10am',
+    },
+    {
+        matchup: 'Dallas at New York',
+        time: '10am',
+    },
+    {
+        matchup: 'Tennessee at Pittsburgh',
+        time: '10am',
+    },
+
+];
+
+const scoress = [
+    {
+        teamOne: 'Patriots 17',
+        teamTwo: 'Colts 27'
+    },
+    {
+        teamOne: 'Cheifs 34',
+        teamTwo: 'Chargers 28'
+    },
+    {
+        teamOne: 'Panthers 21',
+        teamTwo: 'Bills 42'
+    },
+    {
+        teamOne: 'Jets 9',
+        teamTwo: 'Dolphins 21'
+    },
+    {
+        teamOne: 'Cowboys 36',
+        teamTwo: 'Giants 3'
+    },
 ];
 
 const displayEvents= events.map((event, idx) => {
