@@ -15,12 +15,7 @@ class Event extends Component {
                 <td className="level-right"><a className="button is-small is-primary" href="#">Action</a></td>
             </tr>
 
-
-
-
         );
-
-
 
     }
 }
