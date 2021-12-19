@@ -1,3 +1,3 @@
 #Fotball-News
 
-![Events](./img/events.png)
+![Modules](./img/new modules.png)
