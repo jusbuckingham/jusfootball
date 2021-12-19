@@ -36,24 +36,24 @@ const events = [
 const schedules = [
     {
         matchup: 'Carolina at Buffalo',
-        time: '10am',
+        time: '10am'
     },
     {
         matchup: 'Arizona at Detriot',
-        time: '10am',
+        time: '10am'
     },
     {
         matchup: 'New York at Miami',
-        time: '10am',
+        time: '10am'
     },
     {
         matchup: 'Dallas at New York',
-        time: '10am',
+        time: '10am'
     },
     {
         matchup: 'Tennessee at Pittsburgh',
-        time: '10am',
-    },
+        time: '10am'
+    }
 
 ];
 
@@ -77,15 +77,29 @@ const scoress = [
     {
         teamOne: 'Cowboys 36',
         teamTwo: 'Giants 3'
-    },
+    }
 ];
 
-const displayEvents= events.map((event, idx) => {
+const displayEvents = events.map((event, idx) => {
     return (
         <Event key={idx} index={idx} title={event.title} />
 
-    )})
+    )
+})
 
+const displaySchedules = schedules.map((schedule, idx) => {
+    return (
+        <Schedule key={idx} index={idx} matchup={schedule.matchup} time={schedule.time} />
+
+    )
+})
+
+const displayScoress = scoress.map((scores, idx) => {
+    return (
+        <Scores key={idx} index={idx} teamOne={scores.teamOne} teamTwo={scores.teamTwo} />
+
+    )
+})
 
 class Admin extends Component {
     render() {
@@ -234,7 +248,7 @@ class Admin extends Component {
                                             <div className="content">
                                                 <table className="table is-fullwidth is-striped">
                                                     <tbody>
-                                                    
+
                                                         {displayEvents}
                                                     </tbody>
                                                 </table>
