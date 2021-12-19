@@ -195,11 +195,9 @@ class Admin extends Component {
                                 <div className="hero-body">
                                     <div className="container">
                                         <h1 className="title">
-                                            Hello, Admin.
+                                            Football-News
                                         </h1>
-                                        <h2 className="subtitle">
-                                            I hope you are having a great day!
-                                        </h2>
+                                    
                                     </div>
                                 </div>
                             </section>
@@ -250,22 +248,20 @@ class Admin extends Component {
                                                     <tbody>
 
                                                         {displayEvents}
-                                                        {displaySchedules}
-                                                        {displayScoress}
+                                                        
+                                                        
                                                     </tbody>
                                                 </table>
                                             </div>
                                         </div>
-                                        <footer className="card-footer">
-                                            <a href="#" className="card-footer-item">View All</a>
-                                        </footer>
+                                        
                                     </div>
                                 </div>
                                 <div className="column is-6">
                                     <div className="card">
                                         <header className="card-header">
                                             <p className="card-header-title">
-                                                Inventory Search
+                                                Schedules
                                             </p>
                                             <a href="#" className="card-header-icon" aria-label="more options">
                                                 <span className="icon">
@@ -276,7 +272,8 @@ class Admin extends Component {
                                         <div className="card-content">
                                             <div className="content">
                                                 <div className="control has-icons-left has-icons-right">
-                                                    <input className="input is-large" type="text" placeholder="" />
+                                                    
+                                                    {displaySchedules}
                                                     <span className="icon is-medium is-left">
                                                         <i className="fa fa-search"></i>
                                                     </span>
@@ -290,7 +287,7 @@ class Admin extends Component {
                                     <div className="card">
                                         <header className="card-header">
                                             <p className="card-header-title">
-                                                User Search
+                                                Scores
                                             </p>
                                             <a href="#" className="card-header-icon" aria-label="more options">
                                                 <span className="icon">
@@ -301,7 +298,8 @@ class Admin extends Component {
                                         <div className="card-content">
                                             <div className="content">
                                                 <div className="control has-icons-left has-icons-right">
-                                                    <input className="input is-large" type="text" placeholder="" />
+                                                    
+                                                    {displayScoress}
                                                     <span className="icon is-medium is-left">
                                                         <i className="fa fa-search"></i>
                                                     </span>
