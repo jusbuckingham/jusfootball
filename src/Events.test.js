@@ -1,20 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import Event from './Event'
 
-test('renders Dashboard tag', () => {
+test('renders Action keyword', () => {
   render(<Event />);
-  const spanElement = screen.getByText(/Dashboard/i);
+  const spanElement = screen.getByText(/Action/i);
   expect(spanElement).toBeInTheDocument();
 });
 
-test('renders Customers tag', () => {
-  render(<Event />);
-  const spanElement = screen.getByText(/Customers/i);
-  expect(spanElement).toBeInTheDocument();
-});
-
-test('renders Authentication tag', () => {
-  render(<Event />);
-  const spanElement = screen.getByText(/Authentication/i);
-  expect(spanElement).toBeInTheDocument();
-});

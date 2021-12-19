@@ -3,18 +3,6 @@ import Schedule from './Schedule'
 
 test('renders Dashboard tag', () => {
   render(<Schedule />);
-  const spanElement = screen.getByText(/Dashboard/i);
-  expect(spanElement).toBeInTheDocument();
-});
-
-test('renders Customers tag', () => {
-  render(<Schedule />);
-  const spanElement = screen.getByText(/Customers/i);
-  expect(spanElement).toBeInTheDocument();
-});
-
-test('renders Authentication tag', () => {
-  render(<Schedule />);
-  const spanElement = screen.getByText(/Authentication/i);
+  const spanElement = screen.getByText(/Action/i);
   expect(spanElement).toBeInTheDocument();
 });
