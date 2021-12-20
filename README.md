@@ -4,7 +4,7 @@ a football news app
 
 # User Story
 
-##As a user I want to...
+## As a user I want to...
 - Log in/Create an account.
 - View footbal updates, schedules and scores.
 - Be able to segment data by conference.
