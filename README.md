@@ -5,7 +5,7 @@ a football news app
 # User Story
 
 ## As a user I want to...
-- Log in/Create an account.
+- Log in/create an account.
 - View footbal updates, schedules and scores.
 - Be able to segment data by conference.
 
@@ -77,6 +77,20 @@ test('renders Dashboard tag', () => {
 });
 ```
 # Installation Instructions
+1. The first thing that we are going to do is fork and clone
+2. Now we are going to install the current dependencies that are listed inside of package.json
+```
+npm install
+```
+3. Make a commit.
+```
+git add .
+git commit -m "Install dependencies for project"
+```
+4. Start up server and test app
+```
+npm start
+```
 
 # Screenshots
 
