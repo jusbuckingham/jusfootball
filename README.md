@@ -96,6 +96,6 @@ git commit -m "Install dependencies for project"
 npm start
 ```
 
-# Screenshots
+# Screenshot
 
 ![jusfootballpic](./img/jusfootball.png)
