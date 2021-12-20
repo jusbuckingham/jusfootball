@@ -109,7 +109,7 @@ class Admin extends Component {
                     <div className="container">
                         <div className="navbar-brand">
                             <a className="navbar-item brand-text" href="../index.html">
-                                Bulma Admin
+                                NFL
                             </a>
                             <div className="navbar-burger burger" data-target="navMenu">
                                 <span></span>
@@ -167,27 +167,24 @@ class Admin extends Component {
                                         </ul>
                                     </li>
                                     <li><a>Invitations</a></li>
-                                    <li><a>Cloud Storage Environment Settings</a></li>
-                                    <li><a>Authentication</a></li>
-                                    <li><a>Payments</a></li>
                                 </ul>
                                 <p className="menu-label">
-                                    Transactions
+                                    NFL
                                 </p>
                                 <ul className="menu-list">
-                                    <li><a>Payments</a></li>
-                                    <li><a>Transfers</a></li>
-                                    <li><a>Balance</a></li>
-                                    <li><a>Reports</a></li>
+                                    <li><a>NFC</a></li>
+                                    <li><a>AFC</a></li>
+                                    <li><a>Playoffs</a></li>
+                                    <li><a>Superbowl</a></li>
                                 </ul>
                             </aside>
                         </div>
                         <div className="column is-9">
                             <nav className="breadcrumb" aria-label="breadcrumbs">
                                 <ul>
-                                    <li><a href="../">Bulma</a></li>
-                                    <li><a href="../">Templates</a></li>
-                                    <li><a href="../">Examples</a></li>
+                                    <li><a href="../">NFL</a></li>
+                                    <li><a href="../">AFC</a></li>
+                                    <li><a href="../">NFC</a></li>
                                     <li className="is-active"><a href="#" aria-current="page">Admin</a></li>
                                 </ul>
                             </nav>
@@ -206,25 +203,25 @@ class Admin extends Component {
                                     <div className="tile is-parent">
                                         <article className="tile is-child box">
                                             <p className="title">439k</p>
-                                            <p className="subtitle">Users</p>
+                                            <p className="subtitle">Tom Brady</p>
                                         </article>
                                     </div>
                                     <div className="tile is-parent">
                                         <article className="tile is-child box">
                                             <p className="title">59k</p>
-                                            <p className="subtitle">Products</p>
+                                            <p className="subtitle">Patrick Mahomes</p>
                                         </article>
                                     </div>
                                     <div className="tile is-parent">
                                         <article className="tile is-child box">
                                             <p className="title">3.4k</p>
-                                            <p className="subtitle">Open Orders</p>
+                                            <p className="subtitle">Aaron Rodgers</p>
                                         </article>
                                     </div>
                                     <div className="tile is-parent">
                                         <article className="tile is-child box">
                                             <p className="title">19</p>
-                                            <p className="subtitle">Exceptions</p>
+                                            <p className="subtitle">Ben Roethlisberger</p>
                                         </article>
                                     </div>
                                 </div>
