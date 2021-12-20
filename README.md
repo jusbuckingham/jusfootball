@@ -10,6 +10,7 @@ a football news app
 - Be able to segment data by conference.
 
 # Code Snippets
+
 ## Component
 
 ```
@@ -66,7 +67,7 @@ const scoress = [
 ```
 
 ## Test
-### Tests passing
+
 ![Tests](./img/passedtests.png)
 ```
 import { render, screen } from '@testing-library/react';
@@ -79,6 +80,7 @@ test('renders Bills In Schedule', () => {
 });
 ```
 # Installation Instructions
+
 1. The first thing that we are going to do is fork and clone
 2. Now we are going to install the current dependencies that are listed inside of package.json
 ```
