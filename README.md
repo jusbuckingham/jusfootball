@@ -66,13 +66,15 @@ const scoress = [
 ```
 
 ## Test
+### Tests passing
+![Tests](./img/passedtests.png)
 ```
 import { render, screen } from '@testing-library/react';
-import Admin from './Admin'
+import Schedule from './Schedule'
 
-test('renders Dashboard tag', () => {
-  render(<Admin />);
-  const spanElement = screen.getByText(/Dashboard/i);
+test('renders Bills In Schedule', () => {
+  render(<Schedule />);
+  const spanElement = screen.getByTitle(/Action/i);
   expect(spanElement).toBeInTheDocument();
 });
 ```
@@ -94,4 +96,4 @@ npm start
 
 # Screenshots
 
-![Modules](./img/jusfootball.png)
+![jusfootballpic](./img/jusfootball.png)

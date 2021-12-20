@@ -119,7 +119,7 @@ class Admin extends Component {
                         </div>
                         <div id="navMenu" className="navbar-menu">
                             <div className="navbar-start">
-                                <a className="navbar-item" href="admin.html">
+                                <a className="navbar-item" href="admin.html" title="home">
                                     Home
                                 </a>
                                 <a className="navbar-item" href="admin.html">

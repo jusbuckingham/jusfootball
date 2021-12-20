@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import Schedule from './Schedule'
 
-test('renders Dashboard tag', () => {
+test('renders Bills In Schedule', () => {
   render(<Schedule />);
-  const spanElement = screen.getByText(/Action/i);
+  const spanElement = screen.getByTitle(/Action/i);
   expect(spanElement).toBeInTheDocument();
 });

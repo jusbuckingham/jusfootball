@@ -3,7 +3,7 @@ import Event from './Event'
 
 test('renders Action keyword', () => {
   render(<Event />);
-  const spanElement = screen.getByText(/Action/i);
+  const spanElement = screen.getByTitle(/Action/i);
   expect(spanElement).toBeInTheDocument();
 });
 

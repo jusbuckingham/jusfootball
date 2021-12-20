@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import Scores from './Scores'
 
-test('renders Dashboard tag', () => {
+test('renders Action Text', () => {
   render(<Scores />);
-  const spanElement = screen.getByText(/Action/i);
+  const spanElement = screen.getByTitle(/Action/i);
   expect(spanElement).toBeInTheDocument();
 });
