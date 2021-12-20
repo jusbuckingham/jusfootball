@@ -87,7 +87,7 @@ npm install
 git add .
 git commit -m "Install dependencies for project"
 ```
-4. Start up server and test app
+4. Start up server and test out the app!
 ```
 npm start
 ```
